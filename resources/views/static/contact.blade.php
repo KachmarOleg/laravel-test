@@ -5,6 +5,15 @@
 @endsection
 
 @section('content')
+@if($errors->any())
+    <div class="block-error">
+        <ul>
+            @foreach($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
     <div class="main-container">
         <div class="main-block">
             <h1>Contact Page</h1>

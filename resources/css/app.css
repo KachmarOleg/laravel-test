@@ -191,6 +191,19 @@ form button:active {
     transform: translateY(0);
 }
 
+.block-error {
+    background-color: #ff4d4d;
+    width: 96%;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.block-error li {
+    line-height: 170%;
+    color: #e8e8e8;
+    font-size: 17px;
+}
+
 /* FOOTER */
 footer {
     text-align: center;
